@@ -111,3 +111,4 @@ Route::get('/coba3', 'myController@tampilView');
 Route::get('/coba4', 'myController@percobaan');
 
 Route::resource('orangtua','OrangtuaController');
+Route::resource('siswa','SiswaController');
